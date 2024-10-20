@@ -62,7 +62,7 @@ void deleteFirst_103012300012(List &L, address &P) {
         P = NULL;
     } else {
         P = first(L);
-        next(first(L)) = next(P);
+        first(L) = next(P);
         prev(first(L)) = NULL;
         next(P) = NULL;
     }

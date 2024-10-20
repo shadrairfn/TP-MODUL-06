@@ -235,5 +235,23 @@ int main()
 
     cout << "Isi dari L3 : " << endl;
     showData(L3);
+
+    // menghapus elemen pertama dari L3
+
+    deleteFirst_103012300012(L3, P);
+
+    // menampilkan list setelah elemen dihapus
+
+    cout << "Hasil setelah elemen pertama dihapus : " << endl;
+    showData(L3);
+
+    // menghapus elemen terakhir dari L3
+
+    deleteLast_103012300012(L3, P);
+
+    // menampilkan list setelah elemen dihapus
+
+    cout << "Hasil setelah elemen terakhir dihapus : " << endl;
+    showData(L3);
     return 0;
 }
