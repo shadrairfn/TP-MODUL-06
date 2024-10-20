@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1729400435 source:d:\kuliah semester 3\praktikum struktur data\modul 06\main\main.cpp
+	<iostream>
+	"dll.h"
+
+1729400416 d:\kuliah semester 3\praktikum struktur data\modul 06\main\dll.h
+	<iostream>
+
+1729400768 source:d:\kuliah semester 3\praktikum struktur data\modul 06\main\dll.cpp
+	<iostream>
+	"dll.h"
+
